@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #7C8DB0;
+}
+
+.active {
+    color: #605DEC;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1440px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+}
+
+.home {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 90px;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.error__img {
+    width: 400px;
+    height: 400px;
+}
+
+.error__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.error__link {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #605dec;
+    color: white;
+}
+
+.error__link:hover {
+    opacity: 0.9;
+    color: white;
+    transition: 0.25s;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: fit-content;
+    -webkit-box-shadow: -1px 8px 16px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 8px 16px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 8px 16px 7px rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
+}
+
+.user__img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #e3ebed;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.user__info-title {
+    text-decoration: underline #605dec;
+}
+
+.user__btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.user__list {
+    list-style: none;
+    padding: 0;
+}
+
+.banner {
+    display: block;
+    margin: 0 auto;
+}
+.user-header__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #E9E8FC;
+}
